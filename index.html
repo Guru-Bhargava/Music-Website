@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <!-- APlayer CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aplayer/1.10.1/APlayer.min.css" />
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NB - Your favourite music is here</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="logo1.png" alt="">NB Music</li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div class="songList">
+            <h1>Best of NB Songs</h1>
+            <div class="songItemContainer">
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">Let me Love You</span>
+                    <span class="songlistplay"><span class="timestamp">click here-><i id="0"
+                                class="far songItemPlay fa-play-circle"></i> </span></span>
+                                <a href="https://paglasongs.com/files/download/type/320/id/5410" target="_blank">Download</a>
+                </div>
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">Let me Love You</span>
+                    <span class="songlistplay"><span class="timestamp">click here-><i id="1"
+                                class="far songItemPlay fa-play-circle"></i></span></span>
+                                <a href="https://skuboplay.com/wp-content/uploads/2022/02/Taylor-Swift-Blank-Space.mp3" target="_blank">Download</a>
+                </div>
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">Let me Love You</span>
+                    <span class="songlistplay"><span class="timestamp">click here-><i id="2"
+                                class="far songItemPlay fa-play-circle"></i> </span></span>
+                                <a href="https://www.paglaworlds.com/free/download/530"
+                                    target="_blank">Download</a>
+                </div>
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">Let me Love You</span>
+                    <span class="songlistplay"><span class="timestamp">click here-><i id="3"
+                                class="far songItemPlay fa-play-circle"></i> </span></span>
+                                <a href="https://bestwap4u.com/mp3/go.php?id=What%20Makes%20You%20Beautiful%20-%20One%20Direction.mp3&yt="
+                                    target="_blank">Download</a>
+                </div>
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">Let me Love You</span>
+                    <span class="songlistplay"><span class="timestamp">click here-><i id="4"
+                                class="far songItemPlay fa-play-circle"></i> </span></span>
+                                <a href="https://www.farloaded.com/wp-content/uploads/2021/11/Olivia-Rodrigo-drivers-license.mp3"
+                                    target="_blank">Download</a>
+                </div>
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">Let me Love You</span>
+                    <span class="songlistplay"><span class="timestamp">click here-><i id="5"
+                                class="far songItemPlay fa-play-circle"></i> </span></span>
+                                <a href="https://www.thinknews.com.ng/wp-content/uploads/2021/10/Taylor_Swift_-_Wildest_Dreams_Taylor_s_Version__(thinknews.com.ng).mp3" target="_blank">Download</a>
+                </div>
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">Let me Love You</span>
+                    <span class="songlistplay"><span class="timestamp">click here-><i id="6"
+                                class="far songItemPlay fa-play-circle"></i> </span></span>
+                                <a href="https://mp3snow.com/TUVcZfQe-Kw"
+                                    target="_blank">Download</a>
+                </div>
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">Let me Love You</span>
+                    <span class="songlistplay"><span class="timestamp">click here-><i id="7"
+                                class="far songItemPlay fa-play-circle"></i> </span></span>
+                                <a href="https://thinknews.com.ng/wp-content/uploads/2021/10/Olivia_Rodrigo_Deja_Vu_(thinkNews.com.ng).mp3" target="_blank">Download</a>
+                </div>
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">Let me Love You</span>
+                    <span class="songlistplay"><span class="timestamp">click here-><i id="8"
+                                class="far songItemPlay fa-play-circle"></i> </span></span>
+                                <a href="https://cdn.trendybeatz.com/audio/Olivia-Rodrigo-Good-4-U-(TrendyBeatz.com).mp3" target="_blank">Download</a>
+                </div>
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">Let me Love You</span>
+                    <span class="songlistplay"><span class="timestamp">click here-><i id="9"
+                                class="far songItemPlay fa-play-circle"></i> </span></span>
+                                <a href="https://pagalworld.com.se/files/download/type/320/id/2836" target="_blank">Download</a>
+
+
+
+                </div>
+            </div>
+        </div>
+        <div class="songBanner"></div>
+    </div>
+
+    <div class="bottom">
+        <input type="range" name="range" id="myProgressBar" min="0" value="0" max="100">
+        <div class="icons">
+            <!-- fontawesome icons -->
+            <i class="fas fa-3x fa-step-backward" id="previous"></i>
+            <i class="far fa-3x fa-play-circle" id="masterPlay"></i>
+            <i class="fas fa-3x fa-step-forward" id="next"></i>
+        </div>
+        <div class="songInfo">
+            <img src="playing.gif" width="42px" alt="" id="gif"> <span id="masterSongName">Warriyo - Mortals [NCS
+                Release]</span>
+        </div>
+    </div>
+    
+    
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/066748174a.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
